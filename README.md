@@ -1,7 +1,7 @@
 # -
 按照地区范围和距离生成经纬度坐标
 
-##环境依赖
+## 环境依赖
 python版本3.8.8
 依赖库
 - folium==0.17.0
@@ -11,10 +11,10 @@ python版本3.8.8
 - requests==2.31.0
 - web.py==0.62
 
-##服务启动
+## 服务启动
 python polygon.py
 
-##例子
+## 例子
 http://localhost:8080/polygon?zoom=9&code=650200&distance=5
 - zoom	放大倍数	取值范围3-18，一般取9-11之间
 - code	地区编码	例如：克拉玛依 650200
