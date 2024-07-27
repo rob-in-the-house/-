@@ -5,14 +5,12 @@
 python版本3.8.8
 
 主要依赖
-Package            Version
------------------- ----------
-folium             0.17.0
-geopy              2.4.1
-numpy              1.24.4
-shapely            2.0.5
-requests           2.31.0
-web.py             0.62
+folium==0.17.0
+geopy==2.4.1
+numpy==1.24.4
+shapely==2.0.5
+requests==2.31.0
+web.py==0.62
 
 服务启动：python polygon.py
 PS：地图资源需要翻墙
